@@ -1,5 +1,4 @@
 import MultiSteps from './components/MultiStep';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
