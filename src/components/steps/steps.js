@@ -1,5 +1,5 @@
 import About from './About';
 import Terms from './Terms';
-import ConcentForm from './ConcentForm';
+import ConsentForm from './ConsentForm';
 
-export {About, Terms, ConcentForm};
+export {About, Terms, ConsentForm};

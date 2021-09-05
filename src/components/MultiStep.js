@@ -1,12 +1,12 @@
 import react from 'react';
-import { About, Terms, ConcentForm } from './steps/steps';
+import { About, Terms, ConsentForm } from './steps/steps';
 import StepZilla from "react-stepzilla";
 
 const steps =
     [
         { name: 'About', component: <About /> },
         { name: 'Terms', component: <Terms /> },
-        { name: 'Concent', component: <ConcentForm /> },
+        { name: 'Consent', component: <ConsentForm /> },
     ]
 
 const MultiSteps = () => {
