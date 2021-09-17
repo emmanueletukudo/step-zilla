@@ -1,19 +1,19 @@
-import react from 'react';
+import react, { useState } from 'react';
 import { About, Terms, ConsentForm } from './steps/steps';
 import StepZilla from "react-stepzilla";
 
-const steps =
-    [
-        { name: 'About', component: <About /> },
-        { name: 'Terms', component: <Terms /> },
-        { name: 'Consent', component: <ConsentForm /> },
-    ]
+
 
 const MultiSteps = () => {
-
+    const steps =
+        [
+            { name: 'About', component: <About /> },
+            { name: 'Terms', component: <Terms /> },
+            { name: 'Consent', component: <ConsentForm /> },
+        ]
     return (
         <div className='step-progress'>
-            <StepZilla steps={steps} />
+            <StepZilla steps={steps} hocValidationAppliedTo={[2]} />
         </div>
     );
 }
